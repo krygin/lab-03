@@ -6,9 +6,14 @@
 
 // Task 1.
 TEST(Task_1_1, Test) {
+  // Подготовка данных
   std::vector<int> v = {1, 2, 3, 4};
+
+  // Выполнение функции
   multi_2(v);
-  EXPECT_EQ(2, v[0]);
+
+  // Проверки
+  EXPECT_EQ(2, v[0]); // expect equals
   EXPECT_EQ(4, v[1]);
   EXPECT_EQ(6, v[2]);
   EXPECT_EQ(8, v[3]);
@@ -21,6 +26,7 @@ TEST(Task_1_1, Test) {
   EXPECT_EQ(8, v1[3]);
 }
 
+/*
 TEST(Task_1_2, Test) {
   std::vector<int> v = {1, 2, 3, 4};
   reduce_a(v, 1);
@@ -206,3 +212,4 @@ TEST(Task_11, Test) {
             replace_can("the"));
   EXPECT_EQ(std::string("Can you  a  as a ner   a ?"), replace_can(""));
 }
+*/

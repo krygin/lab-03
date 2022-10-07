@@ -3,9 +3,11 @@
 #include <tasks.hpp>
 
 
-// Task 1.
+//// Task 1.
 void multi_2(std::vector<int>& input) {
-    // Fix it.
+  for (int & a: input) {
+    a *= 2;
+  }
 }
 
 void reduce_a(std::vector<int>& input, int a) {
