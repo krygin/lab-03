@@ -2,18 +2,17 @@
 
 #include <tasks.hpp>
 
-
 //// Task 1.
 void multi_2(std::vector<int>& input) {
-  for (int & a: input) {
+  for (int& a : input) {
     a *= 2;
   }
 }
 
 void reduce_a(std::vector<int>& input, int a) {
-    // Fix it.
+  // Fix it.
 }
 
 void div_on_first(std::vector<int>& input) {
-    // Fix it.
+  // Fix it.
 }
